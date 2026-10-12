@@ -245,7 +245,7 @@ command: |
     --host {host} \
     --port {port} \
     --trust-remote-code \
-    --served-model-name qwen3.8-flash-next ursuciprian/Qwen3.8-Flash-Next-NVFP4-GDN-MSE \
+    --served-model-name qwen-flash-next ursuciprian/Qwen3.8-Flash-Next-NVFP4-GDN-MSE \
     --tensor-parallel-size {tensor_parallel} \
     --pipeline-parallel-size {pipeline_parallel} \
     --mamba-cache-mode align \
